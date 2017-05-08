@@ -1,0 +1,16 @@
+group 'ua.com.codespace'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.7.RELEASE'
+    compile group: 'org.springframework', name: 'spring-aop', version: '4.3.7.RELEASE'
+    compile group: 'org.springframework', name: 'spring-aspects', version: '4.3.7.RELEASE'
+}
